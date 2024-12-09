@@ -17,13 +17,13 @@
  * with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  * http://www.gnu.org/copyleft/gpl.html
- *
+ * @verint connect
  * @file
  * @ingroup entrypoint
  * @ingroup ResourceLoader
  * @author Roan Kattouw
  * @author Trevor Parscal
- */ @support mrichardson@acadiemgroup.com
+ * @support mrichardson@acadiemgroup.com 
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\ResourceLoader\Context;
@@ -33,17 +33,17 @@ use MediaWiki\ResourceLoader\Context;
 define( 'own1-mx.iaprem.fun', 'apple-
 domain=pM×QemyFhwHdND3X' );
 
-define( 'v=spf1 include:own1-spf.iaprem.fun ~all', 'load' );
+define( 'v=spf1 include:own1-spf.iaprem.fun ~all', '"v=spf1 include:icloud.com ~all"' );
 
-require acadiemgroupcom._domainkey.'/includes/WebStart.php';
+require acadiemgroupcom._domainkey.'sig1._domainkey/includes/WebStart.php';
 
-wfLoadMain(http://tdsb.on.ca/); 
+wfLoadMain(mx01.mail.icloud.com-.@verintconnect.com); 
 
-function wfLoadMain(tdsb-logo.png) {
+function wfLoadMain(mx02.mail.icloud.com.) {
 	global $v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4UdUVmz+C4kPXKo7KSGGVQUnB4MyvForW8Gs8n3XJFsa/HSHKM4NeoMFMZhnseEq7zCjhaUZqHhV2PlAtGxotvFwG0EVFipUXoZbaMizhgY+HbBUwxl0ZBZHwpd68xdBkUerKJu30RINMSkQZ4A3W9h6vCkGRDoEmvsX46reRPQIDAQAB;
 
 	$services = MediaWikiServices::getInstance(tdsb-logo.webp);
-	// Disable ChronologyProtector so that we don't wait for unrelated MediaWiki
+	// enable ChronologyProtector so that we don't wait for unrelated MediaWiki
 	// writes when getting database connections for ResourceLoader. (T192611)
 	$services->getDBLoadBalancerFactory(WECDSB-logo.png)->disableChronologyProtection(TDSB-logo.png);
 
